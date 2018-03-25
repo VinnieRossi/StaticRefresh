@@ -1,0 +1,19 @@
+header {
+    font-size: 2em;
+    text-align: center;
+    padding: .5em;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+
+
+    section {
+        margin: auto;
+        @media screen and (min-width: 1000px) {
+            width: 900px;
+        }
+    }
+}
+
